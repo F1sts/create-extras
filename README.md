@@ -3,7 +3,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Fabric-API-blue?style=flat-square&logo=fabricmc" alt="Fabric Badge"/>
-  <img src="https://img.shields.io/badge/Minecraft-1.21+-brightgreen?style=flat-square&logo=minecraft" alt="Minecraft Version"/>
+  <img src="https://img.shields.io/badge/Minecraft-Java-brightgreen?style=flat-square&logo=minecraft" alt="Minecraft Version"/>
   <img src="https://img.shields.io/badge/Status-In%20Development-yellow?style=flat-square" alt="Development Status"/>
   <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square" alt="License Badge"/>
 </p>
