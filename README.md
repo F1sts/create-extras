@@ -1,3 +1,4 @@
+<p align="center"><img src="./src/main/resources/assets/create_extras/icon.png" alt="Logo" width="200"></p>
 <h1 align="center">⚙️ Create: Extras</h1>
 
 <p align="center">
@@ -66,7 +67,8 @@ cd create-extras
 
 ## 📜 License
 
-This project is licensed under the **[MIT License](https://raw.githubusercontent.com/F1sts/create-extras/refs/heads/master/LICENSE)**.
+This project is licensed under the *
+*[MIT License](https://raw.githubusercontent.com/F1sts/create-extras/refs/heads/master/LICENSE)**.
 
 ---
 
