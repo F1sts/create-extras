@@ -66,7 +66,7 @@ cd create-extras
 
 ## 📜 License
 
-This project is licensed under the **[MIT License](LICENSE)**.
+This project is licensed under the **[MIT License](https://raw.githubusercontent.com/F1sts/create-extras/refs/heads/master/LICENSE)**.
 
 ---
 
