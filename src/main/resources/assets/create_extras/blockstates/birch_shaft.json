@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "create_extras:block/birch_shaft",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "create_extras:block/birch_shaft"
+    },
+    "axis=z": {
+      "model": "create_extras:block/birch_shaft",
+      "x": 90
+    }
+  }
+}
