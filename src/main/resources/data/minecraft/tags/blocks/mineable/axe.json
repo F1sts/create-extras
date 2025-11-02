@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "create_extras:acacia_shaft",
+    "create_extras:birch_shaft",
+    "create_extras:cherry_shaft",
+    "create_extras:dark_oak_shaft",
+    "create_extras:jungle_shaft",
+    "create_extras:mangrove_shaft",
+    "create_extras:oak_shaft",
+    "create_extras:spruce_shaft"
+  ]
+}
