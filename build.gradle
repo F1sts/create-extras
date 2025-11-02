@@ -30,13 +30,26 @@ group = project.maven_group
 repositories {
     mavenCentral()
     maven { url = "https://maven.fabricmc.net/" }
+    maven { url = "https://maven.parchmentmc.org" } // Parchment repo
+    maven { url = "https://maven.createmod.net" }
+    maven { url = "https://api.modrinth.com/maven" }
+    maven { url = "https://mvn.devos.one/releases" } // Porting Lib releases
+    maven { url = "https://mvn.devos.one/snapshots" } // Create and several dependencies
+    maven { url = "https://maven.tterrag.com/" } // Flywheel
+    maven { url = "https://maven.jamieswhiteshirt.com/libs-release" } // Reach Entity Attributes
+    maven { url = "https://raw.githubusercontent.com/Fuzss/modresources/main/maven" } // Forge Config API Port
+    maven { url = "https://jitpack.io/" } // Mixin Extras, Fabric ASM
 }
 
 dependencies {
     minecraft "com.mojang:minecraft:${project.ext.minecraft_version}"
-    mappings "net.fabricmc:yarn:${project.ext.yarn_mappings}:v2"
+    mappings loom.layered() {
+        officialMojangMappings()
+        parchment("org.parchmentmc.data:parchment-1.20.1:2023.09.03@zip")
+    }
     modImplementation "net.fabricmc:fabric-loader:${project.ext.loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.ext.fabric_version}"
+    modImplementation "com.simibubi.create:create-fabric-1.20.1:${create_fabric_version}"
 }
 
 processResources {
