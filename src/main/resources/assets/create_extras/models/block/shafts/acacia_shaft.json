@@ -3,9 +3,9 @@
   "credit": "Made with Blockbench",
   "parent": "block/block",
   "textures": {
-    "0": "block/mangrove_log",
-    "1": "create_extras:block/mangrove_shaft_top",
-    "particle": "block/mangrove_log"
+    "0": "block/acacia_log",
+    "1": "create_extras:block/shafts/acacia_shaft_top",
+    "particle": "block/acacia_log"
   },
   "elements": [
     {

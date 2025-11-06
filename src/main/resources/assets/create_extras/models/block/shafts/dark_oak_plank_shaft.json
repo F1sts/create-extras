@@ -3,9 +3,9 @@
   "credit": "Made with Blockbench",
   "parent": "block/block",
   "textures": {
-    "0": "block/dark_oak_log",
-    "1": "create_extras:block/dark_oak_shaft_top",
-    "particle": "block/dark_oak_log"
+    "0": "block/dark_oak_planks",
+    "1": "block/dark_oak_planks",
+    "particle": "block/dark_oak_planks"
   },
   "elements": [
     {

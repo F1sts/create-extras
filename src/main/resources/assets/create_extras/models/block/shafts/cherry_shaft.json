@@ -3,9 +3,9 @@
   "credit": "Made with Blockbench",
   "parent": "block/block",
   "textures": {
-    "0": "block/birch_log",
-    "1": "create_extras:block/birch_shaft_top",
-    "particle": "block/birch_log"
+    "0": "block/cherry_log",
+    "1": "create_extras:block/shafts/cherry_shaft_top",
+    "particle": "block/cherry_log"
   },
   "elements": [
     {
