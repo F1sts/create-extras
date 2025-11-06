@@ -17,7 +17,16 @@ public enum BasicShaft {
     JUNGLE("jungle_shaft", SharedProperties.wooden(), null),
     MANGROVE("mangrove_shaft", SharedProperties.wooden(), null),
     OAK("oak_shaft", SharedProperties.wooden(), null),
-    SPRUCE("spruce_shaft", SharedProperties.wooden(), null);
+    SPRUCE("spruce_shaft", SharedProperties.wooden(), null),
+
+    ACACIA_PLANK("acacia_plank_shaft", SharedProperties.wooden(), null),
+    BIRCH_PLANK("birch_plank_shaft", SharedProperties.wooden(), null),
+    CHERRY_PLANK("cherry_plank_shaft", SharedProperties.wooden(), null),
+    DARK_OAK_PLANK("dark_oak_plank_shaft", SharedProperties.wooden(), null),
+    JUNGLE_PLANK("jungle_plank_shaft", SharedProperties.wooden(), null),
+    MANGROVE_PLANK("mangrove_plank_shaft", SharedProperties.wooden(), null),
+    OAK_PLANK("oak_plank_shaft", SharedProperties.wooden(), null),
+    SPRUCE_PLANK("spruce_plank_shaft", SharedProperties.wooden(), null);
 
     public final String id;
     public final NonNullSupplier<Block> initialProperties;
