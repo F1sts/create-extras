@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "create_extras:block/spruce_shaft",
+      "model": "create_extras:block/shafts/spruce_shaft",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "create_extras:block/spruce_shaft"
+      "model": "create_extras:block/shafts/spruce_shaft"
     },
     "axis=z": {
-      "model": "create_extras:block/spruce_shaft",
+      "model": "create_extras:block/shafts/spruce_shaft",
       "x": 90
     }
   }

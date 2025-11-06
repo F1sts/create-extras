@@ -1,15 +1,15 @@
 {
   "variants": {
     "axis=x": {
-      "model": "create_extras:block/mangrove_shaft",
+      "model": "create_extras:block/shafts/mangrove_shaft",
       "x": 90,
       "y": 90
     },
     "axis=y": {
-      "model": "create_extras:block/mangrove_shaft"
+      "model": "create_extras:block/shafts/mangrove_shaft"
     },
     "axis=z": {
-      "model": "create_extras:block/mangrove_shaft",
+      "model": "create_extras:block/shafts/mangrove_shaft",
       "x": 90
     }
   }

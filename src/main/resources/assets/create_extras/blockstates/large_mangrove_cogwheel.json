@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "create_extras:block/cogwheels/large_mangrove_cogwheel",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "create_extras:block/cogwheels/large_mangrove_cogwheel"
+    },
+    "axis=z": {
+      "model": "create_extras:block/cogwheels/large_mangrove_cogwheel",
+      "x": 90,
+      "y": 180
+    }
+  }
+}
