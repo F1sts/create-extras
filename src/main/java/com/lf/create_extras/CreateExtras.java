@@ -3,6 +3,7 @@ package com.lf.create_extras;
 import com.lf.create_extras.helpers.ShaftPlacementHelper;
 import com.lf.create_extras.managers.BlockEntityManager;
 import com.lf.create_extras.managers.BlockManager;
+import com.lf.create_extras.managers.GroupManager;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import dev.engine_room.flywheel.lib.model.baked.PartialModel;
 import net.createmod.catnip.placement.PlacementHelpers;
@@ -21,8 +22,9 @@ public class CreateExtras implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        BlockEntityManager.registerBlockEntities();
         BlockManager.registerBlocks();
+        BlockEntityManager.registerBlockEntities();
+        GroupManager.registerCreativeTabs();
         REGISTRATE.register();
     }
 
